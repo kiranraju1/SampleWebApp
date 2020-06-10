@@ -1,5 +1,5 @@
-resource "aws_instance" "TF-Demo" {
-  ami           = "ami-09d95fab7fff3776c"
+resource "aws_instance" "TF-webapp-demo" {
+  ami           = "ami-01d025118d8e760db"
   instance_type = "t2.micro"
   user_data     = <<-EOF
                   #!/bin/bash
