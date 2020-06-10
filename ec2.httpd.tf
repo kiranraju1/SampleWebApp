@@ -12,5 +12,5 @@ resource "aws_instance" "TF-webapp-demo" {
 }
 
 output "DNS" {
-  value = aws_instance.TF-Demo.public_dns
+  value = aws_instance.TF-webapp-demo.public_dns
 }
